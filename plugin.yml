@@ -1,0 +1,17 @@
+name: StaffOnDuty
+version: 0.1
+main: me.wrix.staffonduty.StaffOnDuty
+database: false
+description: "A plugin made with <3"
+author: wrix
+website: https://kvala.net
+
+commands:
+  staffmode:
+    description: To enable and disable staff mode.
+    permission: staffonduty.all
+    
+permissions:
+  staffonduty.all:
+    description: Permission for all staffonduty commands.
+    default: op
